@@ -1,3 +1,1 @@
-# goit-markup-hw-01
-
-opis projektu
+https://jacobpavlik.github.io/goit-markup-hw-01/
