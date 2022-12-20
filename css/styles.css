@@ -15,9 +15,15 @@ body {
   background-color: var(--primary-background-color, #ffffff);
   color: var(--primary-color-font, #212121);
 }
-.logo {
+.logo-dark {
   font-family: var(--secondary-font, sans-serif);
   color: var(--logo-second-color, #000000);
+  text-decoration: none;
+  font-size: 26px;
+}
+.logo-light {
+  font-family: var(--secondary-font, sans-serif);
+  color: var(--primary-background-color, #ffffff);
   text-decoration: none;
   font-size: 26px;
 }
@@ -46,6 +52,7 @@ button:hover {
 .header-background {
   background-color: var(--primary-background-color, #ffffff);
 }
-.footer-background {
+.footer-background,
+.dark-background {
   background-color: var(--secondary-background-color, #2f303a);
 }
