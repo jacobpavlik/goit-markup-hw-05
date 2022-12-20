@@ -11,3 +11,6 @@ body {
 .logo-color {
   color: #2196f3;
 }
+.none-underline {
+  text-decoration: none;
+}
