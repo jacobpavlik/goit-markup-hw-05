@@ -63,3 +63,9 @@ button:hover {
   text-transform: uppercase;
   line-height: 1.37;
 }
+.title-list-item {
+  font-size: 14px;
+  font-weight: 700px;
+  line-height: 1.172;
+  text-transform: uppercase;
+}
