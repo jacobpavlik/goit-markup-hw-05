@@ -12,9 +12,14 @@ body {
 .logo-color {
   color: #2196f3;
 }
-.none-underline {
+.link-nav {
   text-decoration: none;
 }
+
 .list-format {
   font-size: 14px;
+}
+.link-nav:focus,
+.link-nav:hover {
+  color: #2196f3;
 }
