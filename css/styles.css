@@ -56,3 +56,9 @@ button:hover {
 .dark-background {
   background-color: var(--secondary-background-color, #2f303a);
 }
+.main-title {
+  color: var(--primary-background-color, #ffffff);
+  font-size: 44px;
+  text-transform: uppercase;
+  line-height: 1.37;
+}
