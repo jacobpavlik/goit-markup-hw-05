@@ -33,13 +33,19 @@ body {
 }
 .link-nav:focus,
 .link-nav:hover {
-  color: #2196f3;
+  color: var(--action-color-font, #2196f3);
 }
 button:active,
 button:focus,
 button:hover {
-  background-color: #2196f3;
-  border-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--action-color-font, #2196f3);
+  border-color: var(--action-color-font, #2196f3);
+  color: var(--primary-background-color, #ffffff);
   cursor: pointer;
+}
+.header-background {
+  background-color: var(--primary-background-color, #ffffff);
+}
+.footer-background {
+  background-color: var(--secondary-background-color, #2f303a);
 }
