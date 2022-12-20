@@ -3,3 +3,11 @@ body {
   background: #ffffff;
   color: #212121;
 }
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: #000000;
+  text-decoration: none;
+}
+.logo-color {
+  color: #2196f3;
+}
