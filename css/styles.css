@@ -20,12 +20,14 @@ body {
   color: var(--logo-second-color, #000000);
   text-decoration: none;
   font-size: 26px;
+  line-height: 1.19;
 }
 .logo-light {
   font-family: var(--secondary-font, sans-serif);
   color: var(--primary-background-color, #ffffff);
   text-decoration: none;
   font-size: 26px;
+  line-height: 1.19;
 }
 .logo-color {
   color: var(--action-color-font, #2196f3);
