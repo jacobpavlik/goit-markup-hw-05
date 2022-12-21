@@ -138,5 +138,13 @@ button::first-letter {
 .link-color {
   color: var(--secondary-color-font, #757575);
 }
-
-/* portfolio >card-goods, card-goods__img, card-goods__title, card-goods__subtitle
+.card-goods__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.card-goods__subtitle {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--secondary-color-font, #757575);
+}
