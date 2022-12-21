@@ -50,12 +50,12 @@ button:hover {
   cursor: pointer;
 }
 .header-background,
-.primary-background,
+.section-info,
 .section-work {
   background-color: var(--primary-background-color, #ffffff);
 }
 .footer-background,
-.section-info {
+.section-slogan {
   background-color: var(--secondary-background-color, #2f303a);
 }
 .main-title {
@@ -64,22 +64,39 @@ button:hover {
   text-transform: uppercase;
   line-height: 1.37;
 }
-.title-list-item {
+.card__header {
   font-size: 14px;
   font-weight: 700px;
   line-height: 1.17;
   text-transform: uppercase;
 }
-.paragraph-list-item {
+.card__info {
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-color-font, #757575);
 }
-.section-work__header {
+.section-work__header,
+.section-team__header {
   font-size: 36px;
   font-weight: 700px;
   line-height: 1.17;
 }
-.section-work__header::first-letter {
+.section-work__header::first-letter,
+.section-team__header::first-letter {
   text-transform: uppercase;
+}
+.section-team {
+  background-color: var(--employees-background-color, #f5f4fa);
+}
+.card__title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-transform: capitalize;
+}
+.card__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-transform: capitalize;
 }
