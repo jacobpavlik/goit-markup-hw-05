@@ -50,11 +50,12 @@ button:hover {
   cursor: pointer;
 }
 .header-background,
-.primary-background {
+.primary-background,
+.section-work {
   background-color: var(--primary-background-color, #ffffff);
 }
 .footer-background,
-.dark-background {
+.section-info {
   background-color: var(--secondary-background-color, #2f303a);
 }
 .main-title {
@@ -73,9 +74,6 @@ button:hover {
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-color-font, #757575);
-}
-.section-work {
-  background-color: var(--primary-background-color, #ffffff);
 }
 .section-work__header {
   font-size: 36px;
