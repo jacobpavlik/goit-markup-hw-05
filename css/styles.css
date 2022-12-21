@@ -58,7 +58,8 @@ button::first-letter {
 }
 .header-background,
 .section-info,
-.section-work {
+.section-work,
+.section-goods {
   background-color: var(--primary-background-color, #ffffff);
 }
 .footer-background,
@@ -98,6 +99,9 @@ button::first-letter {
 .section-team {
   background-color: var(--employees-background-color, #f5f4fa);
 }
+.card {
+  background-color: var(--primary-background-color, #ffffff);
+}
 .card__title {
   font-weight: 500;
   font-size: 16px;
@@ -134,3 +138,5 @@ button::first-letter {
 .link-color {
   color: var(--secondary-color-font, #757575);
 }
+
+/* portfolio >card-goods, card-goods__img, card-goods__title, card-goods__subtitle
