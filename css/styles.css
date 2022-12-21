@@ -32,10 +32,12 @@ body {
 }
 .link-nav {
   text-decoration: none;
+  color: var(--primary-color-font, #212121);
 }
 
 .list-format {
   font-size: 14px;
+  list-style: none;
 }
 .link-nav:focus,
 .link-nav:hover {
@@ -63,6 +65,9 @@ button:hover {
   font-size: 44px;
   text-transform: uppercase;
   line-height: 1.37;
+}
+.cards {
+  list-style: none;
 }
 .card__header {
   font-size: 14px;
@@ -99,4 +104,28 @@ button:hover {
   font-size: 16px;
   line-height: 1.19;
   text-transform: capitalize;
+}
+.list-format__text {
+  font-size: 14px;
+  line-height: 1.71;
+  text-transform: capitalize;
+  color: var(--primary-background-color, #ffffff);
+}
+.list-format__link {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff99;
+}
+.list-header {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  text-transform: capitalize;
+  list-style: none;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+.link-color {
+  color: var(--secondary-color-font, #757575);
 }
