@@ -66,6 +66,11 @@ button:hover {
 .title-list-item {
   font-size: 14px;
   font-weight: 700px;
-  line-height: 1.172;
+  line-height: 1.17;
   text-transform: uppercase;
+}
+.paragraph-list-item {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-color-font, #757575);
 }
