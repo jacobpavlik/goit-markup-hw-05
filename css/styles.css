@@ -53,6 +53,9 @@ button:hover {
   color: var(--primary-background-color, #ffffff);
   cursor: pointer;
 }
+button::first-letter {
+  text-transform: uppercase;
+}
 .header-background,
 .section-info,
 .section-work {
