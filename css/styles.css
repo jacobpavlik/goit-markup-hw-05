@@ -21,6 +21,7 @@ body {
   text-decoration: none;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.48px;
 }
 .logo-light {
   font-family: var(--secondary-font, sans-serif);
@@ -37,7 +38,6 @@ body {
   letter-spacing: 0.32px;
   color: var(--primary-color-font, #212121);
 }
-
 .list-format {
   font-size: 14px;
   list-style: none;
@@ -72,6 +72,7 @@ button::first-letter {
   font-size: 44px;
   text-transform: uppercase;
   line-height: 1.37;
+  letter-spacing: 0.96px;
 }
 .cards {
   list-style: none;
