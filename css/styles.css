@@ -1,42 +1,42 @@
 :root {
-  --primary-font: "Roboto";
-  --secondary-font: "Raleway";
-  --primary-color-font: #212121;
-  --secondary-color-font: #757575;
-  --action-color-font: #2196f3;
-  --primary-background-color: #ffffff;
-  --secondary-background-color: #2f303a;
-  --employees-background-color: #f5f4fa;
-  --logo-second-color: #000000;
+  --font-primary: "Roboto";
+  --font-secondary: "Raleway";
+  --font-color-primary: #212121;
+  --font-color-secondary: #757575;
+  --font-color-action: #2196f3;
+  --background-color-primary: #ffffff;
+  --background-color-secondary: #2f303a;
+  --background-color-employees: #f5f4fa;
+  --logo-color-second: #000000;
 }
 
 body {
-  font-family: var(--primary-font, sans-serif);
-  background-color: var(--primary-background-color, #ffffff);
-  color: var(--primary-color-font, #212121);
+  font-family: var(--font-primary, sans-serif);
+  background-color: var(--background-color-primary, #ffffff);
+  color: var(--font-color-primary, #212121);
 }
 .logo-dark {
-  font-family: var(--secondary-font, sans-serif);
-  color: var(--logo-second-color, #000000);
+  font-family: var(--font-secondary, sans-serif);
+  color: var(--logo-color-second, #000000);
   text-decoration: none;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.48px;
 }
 .logo-light {
-  font-family: var(--secondary-font, sans-serif);
-  color: var(--primary-background-color, #ffffff);
+  font-family: var(--font-secondary, sans-serif);
+  color: var(--background-color-primary, #ffffff);
   text-decoration: none;
   font-size: 26px;
   line-height: 1.19;
 }
 .logo-color {
-  color: var(--action-color-font, #2196f3);
+  color: var(--font-color-action, #2196f3);
 }
 .link-nav {
   text-decoration: none;
   letter-spacing: 0.32px;
-  color: var(--primary-color-font, #212121);
+  color: var(--font-color-primary, #212121);
 }
 .list-format {
   font-size: 14px;
@@ -44,14 +44,14 @@ body {
 }
 .link-nav:focus,
 .link-nav:hover {
-  color: var(--action-color-font, #2196f3);
+  color: var(--font-color-action, #2196f3);
 }
 button:active,
 button:focus,
 button:hover {
-  background-color: var(--action-color-font, #2196f3);
-  border-color: var(--action-color-font, #2196f3);
-  color: var(--primary-background-color, #ffffff);
+  background-color: var(--font-color-action, #2196f3);
+  border-color: var(--font-color-action, #2196f3);
+  color: var(--background-color-primary, #ffffff);
   cursor: pointer;
 }
 button::first-letter {
@@ -61,14 +61,14 @@ button::first-letter {
 .section-info,
 .section-work,
 .section-goods {
-  background-color: var(--primary-background-color, #ffffff);
+  background-color: var(--background-color-primary, #ffffff);
 }
 .footer-background,
 .section-slogan {
-  background-color: var(--secondary-background-color, #2f303a);
+  background-color: var(--background-color-secondary, #2f303a);
 }
 .main-title {
-  color: var(--primary-background-color, #ffffff);
+  color: var(--background-color-primary, #ffffff);
   font-size: 44px;
   text-transform: uppercase;
   line-height: 1.37;
@@ -88,7 +88,7 @@ button::first-letter {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.48px;
-  color: var(--secondary-color-font, #757575);
+  color: var(--font-color-secondary, #757575);
 }
 .section-work__header,
 .section-team__header {
@@ -102,10 +102,10 @@ button::first-letter {
   text-transform: uppercase;
 }
 .section-team {
-  background-color: var(--employees-background-color, #f5f4fa);
+  background-color: var(--background-color-employees, #f5f4fa);
 }
 .card {
-  background-color: var(--primary-background-color, #ffffff);
+  background-color: var(--background-color-primary, #ffffff);
 }
 .card__title {
   font-weight: 500;
@@ -125,7 +125,7 @@ button::first-letter {
   font-size: 14px;
   line-height: 1.71;
   text-transform: capitalize;
-  color: var(--primary-background-color, #ffffff);
+  color: var(--background-color-primary, #ffffff);
 }
 .list-format__link {
   font-size: 14px;
@@ -143,7 +143,7 @@ button::first-letter {
   text-transform: lowercase;
 }
 .link-color {
-  color: var(--secondary-color-font, #757575);
+  color: var(--font-color-secondary, #757575);
 }
 .card-goods__title {
   font-weight: 700;
@@ -155,5 +155,5 @@ button::first-letter {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.48px;
-  color: var(--secondary-color-font, #757575);
+  color: var(--font-color-secondary, #757575);
 }
