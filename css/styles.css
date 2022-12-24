@@ -146,11 +146,13 @@ button::first-letter {
   line-height: 1.71;
   text-transform: capitalize;
   color: var(--background-color-primary, #ffffff);
+  font-style: normal;
 }
 .list-format__link {
   font-size: 14px;
   line-height: 1.71;
   color: #ffffff99;
+  font-style: normal;
 }
 .list-header {
   font-size: 14px;
