@@ -180,3 +180,6 @@ button::first-letter {
   letter-spacing: 0.48px;
   color: var(--font-color-secondary, #757575);
 }
+.container {
+  width: 1200px;
+}
