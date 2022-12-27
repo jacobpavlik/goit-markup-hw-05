@@ -84,6 +84,9 @@ button::first-letter {
 .section-goods {
   background-color: var(--background-color-primary, #ffffff);
 }
+.header-background {
+  border-bottom: 1px solid #ececec;
+}
 .footer-background,
 .section-slogan {
   background-color: var(--background-color-secondary, #2f303a);
