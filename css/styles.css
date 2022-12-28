@@ -19,9 +19,6 @@ body {
 }
 .logo-dark {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 25px;
-  padding-left: 215px;
   padding-right: 93px;
   font-family: var(--font-secondary, sans-serif);
   color: var(--logo-color-second, #000000);
@@ -106,6 +103,8 @@ button::first-letter {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
   border-bottom: 1px solid #ececec;
 }
 .footer-background,
