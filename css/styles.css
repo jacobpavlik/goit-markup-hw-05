@@ -49,6 +49,10 @@ body {
 }
 .item-header {
   padding-left: 50px;
+  .item-header > .link-nav:not (
+  :last-child) {
+    margin-right: 10px;
+  }
 }
 .list-format {
   font-size: 14px;
