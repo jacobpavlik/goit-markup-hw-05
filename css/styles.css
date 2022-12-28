@@ -49,10 +49,10 @@ body {
 }
 .item-header {
   padding-left: 50px;
-  .item-header > .link-nav:not (
+}
+.item-header > .link-nav:not (
   :last-child) {
-    margin-right: 10px;
-  }
+  margin-right: 10px;
 }
 .list-format {
   font-size: 14px;
@@ -85,6 +85,7 @@ body {
   line-height: 1.62;
   letter-spacing: 0.48px;
   border-radius: 4px;
+  justify-content: center;
 }
 button:active,
 button:focus,
@@ -113,18 +114,34 @@ button::first-letter {
 }
 .footer-background,
 .section-slogan {
+  align-items: center;
+  justify-content: center;
   background-color: var(--background-color-secondary, #2f303a);
 }
 .main-title {
+  display: block;
   color: var(--background-color-primary, #ffffff);
   font-size: 44px;
   text-transform: uppercase;
   line-height: 1.37;
   letter-spacing: 0.96px;
+  text-align: center;
 }
 .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   list-style: none;
+  padding: 0;
+  border: solid 1px red;1
 }
+.cards--buttons {
+  justify-content: center;
+}
+/* .cards > .card:not (
+  :last-child) {
+  margin-right: 0;
+}*/
 .card__header {
   font-size: 14px;
   font-weight: 700px;
@@ -144,6 +161,8 @@ button::first-letter {
   font-weight: 700px;
   line-height: 1.17;
   letter-spacing: 0.48px;
+  text-align: center;
+  padding-bottom: 50px;
 }
 .section-work__header::first-letter,
 .section-team__header::first-letter {
@@ -153,6 +172,7 @@ button::first-letter {
   background-color: var(--background-color-employees, #f5f4fa);
 }
 .card {
+  border: solid 1px green;
   background-color: var(--background-color-primary, #ffffff);
 }
 .card__title {
@@ -161,6 +181,7 @@ button::first-letter {
   line-height: 1.19;
   letter-spacing: 0.48px;
   text-transform: capitalize;
+  text-align: center;
 }
 .card__subtitle {
   font-weight: 400;
@@ -168,6 +189,7 @@ button::first-letter {
   line-height: 1.19;
   letter-spacing: 0.48px;
   text-transform: capitalize;
+  text-align: center;
 }
 .list-format__text {
   font-size: 14px;
