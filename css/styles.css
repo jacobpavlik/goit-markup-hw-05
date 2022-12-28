@@ -9,6 +9,9 @@
   --background-color-employees: #f5f4fa;
   --logo-color-second: #000000;
 }
+* {
+  margin: 0;
+}
 body {
   font-family: var(--font-primary, sans-serif);
   background-color: var(--background-color-primary, #ffffff);
