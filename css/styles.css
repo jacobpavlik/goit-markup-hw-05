@@ -144,7 +144,6 @@ button::first-letter {
   justify-content: space-between;
   list-style: none;
   padding: 0;
-  border: solid 1px red;
 }
 .cards-set {
   list-style: none;
@@ -193,7 +192,6 @@ button::first-letter {
   background-color: var(--background-color-employees, #f5f4fa);
 }
 .card {
-  border: solid 1px green;
   background-color: var(--background-color-primary, #ffffff);
 }
 .card__title {
@@ -245,17 +243,24 @@ button::first-letter {
 .card-goods {
   flex-basis: calc((100% - 2 * var(--gap-section-goods)) / 3);
 }
+.card-goods__img {
+  margin-bottom: 20px;
+  border: solid 1px green;
+}
 .card-goods__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.96px;
+  border: solid 1px red;
+  margin: 0 24px 4px 24px;
 }
 .card-goods__subtitle {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.48px;
   color: var(--font-color-secondary, #757575);
+  margin: 0 24px 20px 24px;
 }
 .container {
   max-width: 1200px;
