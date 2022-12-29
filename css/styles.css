@@ -8,6 +8,7 @@
   --background-color-secondary: #2f303a;
   --background-color-employees: #f5f4fa;
   --logo-color-second: #000000;
+  --gap-section-goods: 30px;
 }
 * {
   margin: 0;
@@ -149,11 +150,18 @@ button::first-letter {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: var(--gap-section-goods);
   padding: 0;
 }
 .cards--buttons {
   justify-content: center;
+  margin-bottom: 20px;
+}
+.cards--buttons button {
+  padding: 6px 22px 6px 22px;
+}
+.cards--buttons > .item-button:not(:last-child) {
+  margin-right: 8px;
 }
 .card__header {
   font-size: 14px;
@@ -235,7 +243,7 @@ button::first-letter {
   color: var(--font-color-secondary, #757575);
 }
 .card-goods {
-  flex-basis: calc((100% - 2 * 30px) / 3);
+  flex-basis: calc((100% - 2 * var(--gap-section-goods)) / 3);
 }
 .card-goods__title {
   font-weight: 700;
