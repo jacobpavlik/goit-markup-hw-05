@@ -145,6 +145,13 @@ button::first-letter {
   padding: 0;
   border: solid 1px red;
 }
+.cards-set {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+}
 .cards--buttons {
   justify-content: center;
 }
@@ -226,6 +233,9 @@ button::first-letter {
 }
 .link-color {
   color: var(--font-color-secondary, #757575);
+}
+.card-goods {
+  flex-basis: calc((100% - 2 * 30px) / 3);
 }
 .card-goods__title {
   font-weight: 700;
