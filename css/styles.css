@@ -242,6 +242,7 @@ button::first-letter {
 }
 .card-goods {
   flex-basis: calc((100% - 2 * var(--gap-section-goods)) / 3);
+  border-bottom: 1px solid #eeeeee;
 }
 .card-goods__img {
   margin-bottom: 20px;
