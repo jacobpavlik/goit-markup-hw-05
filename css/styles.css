@@ -124,6 +124,10 @@ button::first-letter {
   flex-direction: column;
   background-color: var(--background-color-secondary, #2f303a);
 }
+.footer-background {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .section-slogan {
   align-items: center;
   justify-content: center;
@@ -154,7 +158,7 @@ button::first-letter {
 }
 .cards--buttons {
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .cards--buttons button {
   padding: 6px 22px 6px 22px;
