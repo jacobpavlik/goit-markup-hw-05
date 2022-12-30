@@ -250,14 +250,12 @@ button::first-letter {
 }
 .card-goods__img {
   margin-bottom: 20px;
-  border: solid 1px green;
 }
 .card-goods__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.96px;
-  border: solid 1px red;
   margin: 0 24px 4px 24px;
 }
 .card-goods__subtitle {
