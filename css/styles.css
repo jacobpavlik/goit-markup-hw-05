@@ -149,6 +149,9 @@ button::first-letter {
   list-style: none;
   padding: 0;
 }
+.cards > .card:not(:last-child) {
+  margin-right: 30px;
+}
 .cards-set {
   list-style: none;
   display: flex;
