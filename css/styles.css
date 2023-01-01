@@ -175,6 +175,7 @@ button::first-letter {
   letter-spacing: 0.48px;
   line-height: 1.17;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .card__info {
   font-size: 14px;
