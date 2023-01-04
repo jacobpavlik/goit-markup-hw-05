@@ -271,3 +271,6 @@ button::first-letter {
 .section {
   padding: 94px 0;
 }
+.section-info {
+  padding-bottom: 0;
+}
