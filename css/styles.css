@@ -117,16 +117,16 @@ button::first-letter {
 }
 .footer-background,
 .section-slogan {
-  display: flex;
-  flex-direction: column;
+  /*display: flex;*/
+  /*flex-direction: column;*/
   background-color: var(--background-color-secondary, #2f303a);
 }
 .footer-background {
   padding: 60px 0;
 }
 .section-slogan {
-  align-items: center;
-  justify-content: center;
+  /*align-items: center;*/
+  /*justify-content: center;*/
 }
 .main-title {
   color: var(--background-color-primary, #ffffff);
