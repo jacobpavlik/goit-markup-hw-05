@@ -19,7 +19,6 @@ body {
   color: var(--font-color-primary, #212121);
 }
 .logo-dark {
-  display: flex;
   padding-right: 93px;
   font-family: var(--font-secondary, sans-serif);
   color: var(--logo-color-second, #000000);
@@ -47,18 +46,15 @@ body {
   color: var(--font-color-primary, #212121);
 }
 .item-nav {
-  padding-right: 46px;
-  margin: 0 auto;
+  margin-right: 46px;
 }
-.item-header {
-  padding-left: 50px;
-}
-.item-header > .link-nav:not(:last-child) {
+.list-header > .item-header:not(:last-child) {
   margin-right: 50px;
 }
+.list-header > .item-header:not(:last-child) {
+  margin-left: 325px;
+}
 .list-format {
-  /*display: flex;
-  flex-direction: column;*/
   font-size: 14px;
   list-style: none;
   padding: 0;
@@ -113,9 +109,11 @@ button::first-letter {
 .header-background {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 32px 0;
   border-bottom: 1px solid #ececec;
+}
+.header-flex {
+  display: flex;
 }
 .footer-background,
 .section-slogan {
