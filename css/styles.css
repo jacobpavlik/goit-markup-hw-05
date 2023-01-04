@@ -117,8 +117,6 @@ button::first-letter {
 }
 .footer-background,
 .section-slogan {
-  /*display: flex;*/
-  /*flex-direction: column;*/
   background-color: var(--background-color-secondary, #2f303a);
 }
 .footer-background {
@@ -126,8 +124,6 @@ button::first-letter {
 }
 .section-slogan {
   text-align: center;
-  /*align-items: center;*/
-  /*justify-content: center;*/
 }
 .main-title {
   color: var(--background-color-primary, #ffffff);
