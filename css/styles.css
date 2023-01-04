@@ -125,6 +125,7 @@ button::first-letter {
   padding: 60px 0;
 }
 .section-slogan {
+  text-align: center;
   /*align-items: center;*/
   /*justify-content: center;*/
 }
@@ -135,7 +136,6 @@ button::first-letter {
   line-height: 1.37;
   letter-spacing: 0.96px;
   text-align: center;
-  width: 696px;
   margin-bottom: 30px;
 }
 .cards {
