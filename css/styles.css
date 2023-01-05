@@ -76,6 +76,8 @@ body {
   letter-spacing: 0.96px;
   border-radius: 4px;
   padding: 10px 41px 10px 42px;
+  border-width: 0;
+  box-shadow: 0px 4px 4px #00000026;
 }
 .cards button {
   background-color: var(--background-color-employees, #f5f4fa);
