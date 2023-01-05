@@ -197,6 +197,11 @@ button::first-letter {
 .card {
   background-color: var(--background-color-primary, #ffffff);
 }
+.shadow-employee {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
 .card__title {
   font-weight: 500;
   font-size: 16px;
@@ -204,6 +209,7 @@ button::first-letter {
   letter-spacing: 0.48px;
   text-transform: capitalize;
   text-align: center;
+  margin: 30px 99px 10px;
 }
 .card__subtitle {
   font-weight: 400;
@@ -212,6 +218,8 @@ button::first-letter {
   letter-spacing: 0.48px;
   text-transform: capitalize;
   text-align: center;
+  margin: 0 0 30px;
+  color: var(--font-color-secondary);
 }
 .list-format__text {
   font-size: 14px;
