@@ -164,7 +164,7 @@ button::first-letter {
   margin-bottom: 50px;
 }
 .cards--buttons button {
-  padding: 6px 22px 6px 22px;
+  padding: 6px 22px;
 }
 .cards--buttons > .item-button:not(:last-child) {
   margin-right: 8px;
@@ -268,14 +268,14 @@ button::first-letter {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.96px;
-  margin: 0 24px 4px 24px;
+  margin: 0 24px 4px;
 }
 .card-goods__subtitle {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.48px;
   color: var(--font-color-secondary, #757575);
-  margin: 0 24px 20px 24px;
+  margin: 0 24px 20px;
 }
 .container {
   max-width: 1200px;
