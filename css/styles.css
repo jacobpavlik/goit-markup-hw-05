@@ -294,6 +294,5 @@ button::first-letter {
   outline: 1px solid var(--icon-color-normal);
   fill: var(--icon-color-normal);
   padding: 16px 32px;
-}
-.clients {
+  border-radius: 4px;
 }
