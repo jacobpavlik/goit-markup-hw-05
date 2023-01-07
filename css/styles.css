@@ -296,3 +296,10 @@ button::first-letter {
   padding: 16px 32px;
   border-radius: 4px;
 }
+.icon:active,
+.icon:focus,
+.icon:hover {
+  outline-color: var(--font-color-action);
+  fill: var(--font-color-action);
+  cursor: pointer;
+}
