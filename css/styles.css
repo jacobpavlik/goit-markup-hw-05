@@ -306,12 +306,16 @@ button::first-letter {
   padding: 16px 32px;
   border-radius: 4px;
 }
+.div-media:active,
+.div-media:focus,
+.div-media:hover,
 .icon-media:active,
 .icon-media:focus,
-.icon-media:hover,
-.icon-media-footer:active,
-.icon-media-footer:focus,
-.icon-media-footer:hover,
+.icon-media:hover {
+  background-color: var(--font-color-action);
+  fill: var(--background-color-primary);
+  cursor: pointer;
+}
 .icon-info:active,
 .icon-info:focus,
 .icon-info:hover,
@@ -335,6 +339,19 @@ button::first-letter {
   padding: 12px;
   border-radius: 50px;
 }
+.div-media-footer {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50px;
+  background: #ffffff1a;
+}
+.div-media-footer:active,
+.div-media-footer:focus,
+.div-media-footer:hover {
+  background-color: var(--font-color-action);
+  cursor: pointer;
+}
 .icon-media {
   fill: var(--icon-color-normal);
 }
@@ -347,10 +364,6 @@ button::first-letter {
 }
 .icon-media-footer {
   fill: var(--background-color-primary);
-  outline: 1px solid red;
-  padding: 12px;
-  border-radius: 50px;
-  border-width: 0;
 }
 .cards-media-footer {
   display: flex;
