@@ -53,16 +53,19 @@ body {
   margin-right: 50px;
 }
 .list-header > .item-header:not(:last-child) {
-  margin-left: 325px;
+  margin-left: 315px;
 }
 .list-format {
   font-size: 14px;
   list-style: none;
   padding: 0;
 }
+.icon-nav:hover,
+.icon-nav:focus,
 .link-nav:focus,
 .link-nav:hover {
   color: var(--font-color-action, #2196f3);
+  fill: var(--font-color-action);
 }
 .nav-flex {
   display: flex;
@@ -369,7 +372,6 @@ button::first-letter {
 .cards-media-footer {
   display: flex;
   list-style: none;
-  /*justify-content: center;*/
   margin-top: 0;
   padding: 0;
 }
@@ -381,4 +383,8 @@ button::first-letter {
 }
 .media-footer-container {
   margin-top: 12px;
+}
+.icon-nav {
+  fill: var(--font-color-secondary);
+  margin-right: 10px;
 }
