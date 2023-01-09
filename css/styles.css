@@ -128,7 +128,7 @@ button::first-letter {
 .section-slogan {
   background-color: var(--background-color-secondary, #2f303a);
 }
-.testbg {
+.image-bg {
   margin: 0 auto;
   width: 1600px;
   height: 600px;

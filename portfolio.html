@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/modern-normalize.min.css" />
     <link href="./css/styles.css" rel="stylesheet" />
     <title>Portfolio</title>
   </head>
@@ -37,12 +38,19 @@
             <a
               class="link-nav lowercase link-color"
               href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+            >
+              <svg class="icon-nav" width="16px" height="12px">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
           <li class="item-header">
             <a class="link-nav link-color" href="tel:+48111111111"
-              >+48 111 111 111</a
+              ><svg class="icon-nav" width="10px" height="16px">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +48 111 111 111</a
             >
           </li>
         </ul>
@@ -171,29 +179,64 @@
       </section>
     </main>
     <footer class="footer-background">
-      <div class="container">
-        <a class="logo-light" href="./index.html"
-          ><span class="logo-color">Web</span>Studio</a
-        >
-        <address>
-          <ul class="list-format">
-            <li class="list-format__text">
-              m. warszawa, aleje jerozolimskie 21
+      <div class="container footer-flex">
+        <div class="address-footer-container">
+          <a class="logo-light" href="./index.html"
+            ><span class="logo-color">Web</span>Studio</a
+          >
+          <address>
+            <ul class="list-format">
+              <li class="list-format__text">
+                m. warszawa, aleje jerozolimskie 21
+              </li>
+              <li>
+                <a
+                  class="link-nav list-format__link"
+                  href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li>
+                <a class="link-nav list-format__link" href="tel:+48111111111"
+                  >+48 111 111 111</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="media-footer-container">
+          <h3 class="card__footer">dołącz do nas</h3>
+          <ul class="cards-media-footer">
+            <li>
+              <div class="div-media-footer">
+                <svg class="icon-media-footer" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </div>
             </li>
             <li>
-              <a
-                class="link-nav list-format__link"
-                href="mailto:info@example.com"
-                >info@example.com</a
-              >
+              <div class="div-media-footer">
+                <svg class="icon-media-footer" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </div>
             </li>
             <li>
-              <a class="link-nav list-format__link" href="tel:+48111111111"
-                >+48 111 111 111</a
-              >
+              <div class="div-media-footer">
+                <svg class="icon-media-footer" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </div>
+            </li>
+            <li>
+              <div class="div-media-footer">
+                <svg class="icon-media-footer" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </div>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
