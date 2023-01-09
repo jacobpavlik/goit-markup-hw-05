@@ -255,6 +255,9 @@ button::first-letter {
   color: var(--background-color-primary, #ffffff);
   font-style: normal;
 }
+.list-format__text::first-letter {
+  text-transform: lowercase;
+}
 .list-format__link {
   font-size: 14px;
   line-height: 1.71;
