@@ -128,8 +128,17 @@ button::first-letter {
 .section-slogan {
   background-color: var(--background-color-secondary, #2f303a);
 }
+.testbg {
+  margin: 0 auto;
+  width: 1600px;
+  height: 600px;
+  background-image: url("../images/img-bg.png");
+  background-repeat: no-repeat;
+  background-position: cover;
+}
 .footer-background {
   padding: 60px 0;
+  background-color: var(--background-color-secondary, #2f303a);
 }
 .section-slogan {
   text-align: center;
@@ -144,6 +153,7 @@ button::first-letter {
   margin-bottom: 30px;
 }
 .slogan {
+  padding-top: 106px;
   width: 696px;
 }
 .cards {
