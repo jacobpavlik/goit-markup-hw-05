@@ -345,6 +345,7 @@ button::first-letter {
   padding: 12px;
   border-radius: 50px;
   background: #ffffff1a;
+  margin-right: 10px;
 }
 .div-media-footer:active,
 .div-media-footer:focus,
@@ -374,4 +375,10 @@ button::first-letter {
 }
 .footer-flex {
   display: flex;
+}
+.address-footer-container {
+  margin-right: 70px;
+}
+.media-footer-container {
+  margin-top: 12px;
 }
