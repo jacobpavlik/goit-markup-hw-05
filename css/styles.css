@@ -132,7 +132,8 @@ button::first-letter {
   margin: 0 auto;
   width: 1600px;
   height: 600px;
-  background-image: url("../images/img-bg.png");
+  background-image: url("../images/img-overlay.png"),
+    url("../images/img-bg.png");
   background-repeat: no-repeat;
   background-position: cover;
 }
