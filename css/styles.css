@@ -60,8 +60,6 @@ body {
   list-style: none;
   padding: 0;
 }
-/*.icon-nav:hover,
-.icon-nav:focus,*/
 .link-nav:focus,
 .link-nav:hover {
   color: var(--font-color-action, #2196f3);
