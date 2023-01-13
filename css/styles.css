@@ -187,6 +187,7 @@ button::first-letter {
 .cards--buttons > .item-button:not(:last-child) {
   margin-right: 8px;
 }
+.label,
 .card__footer,
 .card__header {
   font-size: 14px;
@@ -194,10 +195,15 @@ button::first-letter {
   letter-spacing: 0.48px;
   line-height: 1.17;
   text-transform: uppercase;
+}
+.card__header {
   margin-bottom: 10px;
 }
 .card__footer {
   margin-bottom: 20px;
+}
+.label,
+.card__footer {
   color: var(--background-color-primary);
 }
 .card__info {
@@ -413,7 +419,6 @@ button::first-letter {
   pointer-events: none;
   visibility: hidden;
   opacity: 0;
-  transform: translateX(50%);
 }
 .modal {
   position: fixed;
@@ -421,9 +426,24 @@ button::first-letter {
   height: 581px;
   left: 536px;
   top: 221px;
-
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.label {
+  position: absolute;
+  bottom: 0;
+  background: #2f303acc;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  padding: 27px 90px;
+  /*  margin-bottom: 3.7px;*/
+}
+.card-work {
+  position: relative;
 }
