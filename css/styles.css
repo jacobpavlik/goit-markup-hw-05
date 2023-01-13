@@ -409,3 +409,21 @@ button::first-letter {
   fill: var(--font-color-secondary);
   margin-right: 10px;
 }
+.is-hidden {
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateX(50%);
+}
+.modal {
+  position: fixed;
+  width: 528px;
+  height: 581px;
+  left: 536px;
+  top: 221px;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
