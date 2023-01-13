@@ -45,6 +45,8 @@ body {
   text-decoration: none;
   letter-spacing: 0.32px;
   color: var(--font-color-primary, #212121);
+  display: flex;
+  align-items: center;
 }
 .item-nav {
   margin-right: 46px;
@@ -293,6 +295,7 @@ button::first-letter {
 }
 .card-goods__img {
   margin-bottom: 20px;
+  width: 100%;
 }
 .card-goods__title {
   font-weight: 700;
