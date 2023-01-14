@@ -299,12 +299,35 @@ button::first-letter {
 .card-goods {
   flex-basis: calc((100% - 2 * var(--gap-section-goods)) / 3);
   border-bottom: 1px solid #eeeeee;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
 }
 .card-goods:hover,
 .card-goods:focus {
   box-shadow: 0px 1px 1px #0000001f, 0px 4px 4px #0000000f,
     1px 4px 6px #00000029;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.overlay {
+  background-color: #2196f3e6;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.48px;
+  color: var(--background-color-primary);
+  position: absolute;
+  padding: 49px 45px 49px 24px;
+  transform: translateY(0);
+  transition: translateY 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.card-goods:hover .overlay {
+  transform: translateY(-100%);
+  transition: translateY 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .card-goods__img {
   margin-bottom: 20px;
