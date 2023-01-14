@@ -323,11 +323,11 @@ button::first-letter {
   position: absolute;
   padding: 49px 45px 49px 24px;
   transform: translateY(0);
-  transition: translateY 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .card-goods:hover .overlay {
   transform: translateY(-100%);
-  transition: translateY 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .card-goods__img {
   margin-bottom: 20px;
