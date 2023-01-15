@@ -508,3 +508,9 @@ button::first-letter {
   position: relative;
   height: 294px;
 }
+/*.hover::after {
+  content: "";
+  width: 53px;
+  height: 4px;
+  background-size: contain;
+}*/
