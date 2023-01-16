@@ -129,6 +129,7 @@ button::first-letter {
   justify-content: space-between;
   padding: 32px 0;
   border-bottom: 1px solid #ececec;
+  position: relative;
 }
 .header-flex {
   display: flex;
@@ -512,16 +513,29 @@ button::first-letter {
   position: relative;
   height: 294px;
 }
-.hovertest::after {
-  display: none;
+.hover-agency::after {
+  display: block;
   content: "";
-  /* width: 53px;
-  height: 4px;*/
+  width: 53px;
+  min-height: 4px;
   background-size: contain;
   background-image: url(../images/hover.png);
+  position: absolute;
+  bottom: 0;
 }
-.hovertest:active::after,
-.hovertest:focus::after,
-.hovertest:hover::after {
+.hover-portfolio::after {
   display: block;
+  content: "";
+  width: 58px;
+  min-height: 4px;
+  background-size: contain;
+  background-image: url(../images/hover.png);
+  position: absolute;
+  bottom: 0;
+}
+.item-nav > .hover-agency {
+  color: var(--font-color-action);
+}
+.item-nav > .hover-portfolio {
+  color: var(--font-color-action);
 }
