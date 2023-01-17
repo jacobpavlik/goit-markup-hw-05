@@ -518,8 +518,7 @@ button::first-letter {
   content: "";
   width: 53px;
   min-height: 4px;
-  background-size: contain;
-  background-image: url(../images/hover.png);
+  background-color: var(--font-color-action);
   position: absolute;
   bottom: 0;
 }
@@ -528,8 +527,7 @@ button::first-letter {
   content: "";
   width: 58px;
   min-height: 4px;
-  background-size: contain;
-  background-image: url(../images/hover.png);
+  background-color: var(--font-color-action);
   position: absolute;
   bottom: 0;
 }
