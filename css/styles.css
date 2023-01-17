@@ -127,7 +127,7 @@ button::first-letter {
 .header-background {
   display: flex;
   justify-content: space-between;
-  padding: 32px 0;
+  padding: 24px 0;
   border-bottom: 1px solid #ececec;
   position: relative;
 }
