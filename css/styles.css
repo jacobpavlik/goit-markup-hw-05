@@ -13,6 +13,7 @@
 }
 * {
   margin: 0;
+  padding: 0;
 }
 body {
   font-family: var(--font-primary, sans-serif);
@@ -61,7 +62,6 @@ body {
   font-size: 14px;
   list-style: none;
   font-style: normal;
-  padding: 0;
 }
 .link-nav:focus,
 .link-nav:hover {
@@ -173,7 +173,6 @@ button::first-letter {
   align-items: center;
   justify-content: space-between;
   list-style: none;
-  padding: 0;
 }
 .cards > .card:not(:last-child) {
   margin-right: 30px;
@@ -183,7 +182,6 @@ button::first-letter {
   display: flex;
   flex-wrap: wrap;
   gap: var(--gap-section-goods);
-  padding: 0;
 }
 .cards--buttons {
   justify-content: center;
@@ -282,7 +280,6 @@ button::first-letter {
 .list-header {
   display: flex;
   align-items: center;
-  padding: 0;
   margin: 0 auto;
   font-size: 14px;
   font-weight: 500;
@@ -420,7 +417,6 @@ button::first-letter {
   width: 30px;
   height: 30px;
   margin: 8px;
-  padding: 0;
   position: absolute;
   top: 0;
   right: 0;
@@ -455,7 +451,6 @@ button::first-letter {
   list-style: none;
   justify-content: space-between;
   margin: 0 30px 30px;
-  padding: 0;
 }
 .icon-media-footer {
   fill: var(--background-color-primary);
@@ -464,7 +459,6 @@ button::first-letter {
   display: flex;
   list-style: none;
   margin-top: 0;
-  padding: 0;
 }
 .footer-flex {
   display: flex;
