@@ -60,6 +60,7 @@ body {
 .list-format {
   font-size: 14px;
   list-style: none;
+  font-style: normal;
   padding: 0;
 }
 .link-nav:focus,
@@ -269,7 +270,6 @@ button::first-letter {
   line-height: 1.71;
   text-transform: capitalize;
   color: var(--background-color-primary, #ffffff);
-  font-style: normal;
 }
 .list-format__text::first-letter {
   text-transform: lowercase;
@@ -278,7 +278,6 @@ button::first-letter {
   font-size: 14px;
   line-height: 1.71;
   color: #ffffff99;
-  font-style: normal;
 }
 .list-header {
   display: flex;
@@ -341,7 +340,7 @@ button::first-letter {
   padding: 20px 24px 4px;
   z-index: 1;
   position: relative;
-  background-color: #ffffff;
+  background-color: var(--background-color-primary);
 }
 .card-goods__subtitle {
   font-size: 16px;
@@ -351,7 +350,7 @@ button::first-letter {
   padding: 0 24px 20px;
   z-index: 1;
   position: relative;
-  background-color: #ffffff;
+  background-color: var(--background-color-primary);
 }
 .container {
   max-width: 1200px;
